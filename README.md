@@ -5,8 +5,8 @@ As promised, I am opening you the MovieClip class for WebGL. To initialize the c
 
 ```C++
 clip = new MovieClip(gl,2036,2032); //gl - WebGLRenderingContext, 2036 - width, 2032 - height
-clip->loadSprite("background.jpg",0); "background.jpg" - image url (string), 0 - clipType (int)
-clip->loadMovieClip("video.webm",1); "video.webm" - video url (string), 1 - clipType (int)
+clip->loadSprite("background.jpg",0); //"background.jpg" - image url (string), 0 - clipType (int)
+clip->loadMovieClip("video.webm",1); //"video.webm" - video url (string), 1 - clipType (int)
 ```
 
 You need to add an event to download:
